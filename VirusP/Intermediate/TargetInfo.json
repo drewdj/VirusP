@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "VirusP",
+			"Path": "C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Source\\VirusP.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "VirusPEditor",
+			"Path": "C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Source\\VirusPEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
