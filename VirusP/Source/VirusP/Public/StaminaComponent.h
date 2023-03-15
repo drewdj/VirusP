@@ -16,6 +16,7 @@ public:
 	// Sets default values for this component's properties
 	UStaminaComponent();
 
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -26,9 +27,16 @@ protected:
 	UPROPERTY(BlueprintReadOnly)
 	float Stamina;
 
+	UPROPERTY(EditAnywhere)
+	float StaminaRegenRate = 10.f;
 
+	UPROPERTY(EditAnywhere)
+	bool bIsSprinting = false;
+
+public:
+
+	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	
-
 		
 };

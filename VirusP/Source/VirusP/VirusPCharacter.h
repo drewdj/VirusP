@@ -26,7 +26,18 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Input)
 	float TurnRateGamepad;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Health")
+	class UHealthComponent* HealthComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stamina")
+	class UStaminaComponent* StaminaComponent;
+
 protected:
+
+	bool bIsRunning;
+
+	void Run();
+	void StopRunning();
 
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);

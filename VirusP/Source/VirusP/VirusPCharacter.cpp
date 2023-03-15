@@ -3,6 +3,7 @@
 #include "VirusPCharacter.h"
 
 #include "HealthComponent.h"
+#include "StaminaComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
@@ -15,6 +16,10 @@
 
 AVirusPCharacter::AVirusPCharacter()
 {
+
+	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComponent"));
+	StaminaComponent = CreateDefaultSubobject<UStaminaComponent>(TEXT("StaminaComponent"));
+	
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
@@ -63,6 +68,12 @@ void AVirusPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	// if Run is pressed, activate takeDamage inside HealthComponent
+	
+
+	PlayerInputComponent->BindAction("Run", IE_Pressed, this, &AVirusPCharacter::Run);
+	PlayerInputComponent->BindAction("Run", IE_Released, this, &AVirusPCharacter::StopRunning);
 
 	PlayerInputComponent->BindAxis("Move Forward / Backward", this, &AVirusPCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("Move Right / Left", this, &AVirusPCharacter::MoveRight);
@@ -129,4 +140,14 @@ void AVirusPCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void AVirusPCharacter::Run()
+{
+	GetCharacterMovement()->MaxWalkSpeed = 1000.f;
+}
+
+void AVirusPCharacter::StopRunning()
+{
+	GetCharacterMovement()->MaxWalkSpeed = 500.f;
 }

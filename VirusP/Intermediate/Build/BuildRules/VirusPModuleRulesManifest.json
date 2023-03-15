@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Source\\VirusP\\VirusP.Build.cs",
-		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Source\\VirusP.Target.cs",
-		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Source\\VirusPEditor.Target.cs"
+		"C:\\Users\\28dav\\Documents\\GitHub\\VirusP\\VirusP\\Source\\VirusP\\VirusP.Build.cs",
+		"C:\\Users\\28dav\\Documents\\GitHub\\VirusP\\VirusP\\Source\\VirusP.Target.cs",
+		"C:\\Users\\28dav\\Documents\\GitHub\\VirusP\\VirusP\\Source\\VirusPEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }

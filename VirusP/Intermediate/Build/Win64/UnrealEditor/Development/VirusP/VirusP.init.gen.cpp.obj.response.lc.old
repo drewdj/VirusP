@@ -1,5 +1,6 @@
 "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Inc\VirusP\VirusP.init.gen.cpp"
 /I .
+/I "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Source\VirusP\Private"
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
 /I ..\Shaders\Shared
@@ -253,6 +254,7 @@
 /I Developer\AnimationDataController\Public
 /I "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Inc\VirusP"
 /I "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Source"
+/I "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Source\VirusP\Public"
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
