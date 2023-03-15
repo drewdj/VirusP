@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "VirusPCharacter.generated.h"
 
+
 UCLASS(config=Game)
 class AVirusPCharacter : public ACharacter
 {

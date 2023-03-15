@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\inc\\virusp\\viruspgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\viruspeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\development\\virusp\\definitions.virusp.h",
+            "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\source\\virusp\\viruspgamemode.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\inc\\virusp\\viruspgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

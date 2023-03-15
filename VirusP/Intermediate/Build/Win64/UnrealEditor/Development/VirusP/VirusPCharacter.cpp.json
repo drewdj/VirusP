@@ -1,5 +1,5 @@
 {
-    "Version": "1.2",
+    "Version": "1.1",
     "Data": {
         "Source": "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\source\\virusp\\viruspcharacter.cpp",
         "ProvidedModule": "",
@@ -14,6 +14,8 @@
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
             "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\inc\\virusp\\viruspcharacter.generated.h",
+            "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\source\\virusp\\public\\healthcomponent.h",
+            "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\inc\\virusp\\healthcomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\cameracomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
