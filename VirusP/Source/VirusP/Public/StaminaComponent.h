@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "VirusP/VirusPCharacter.h"
 #include "StaminaComponent.generated.h"
 
 
@@ -18,6 +19,8 @@ public:
 
 
 protected:
+	AVirusPCharacter* Owner;
+	
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
@@ -27,16 +30,34 @@ protected:
 	UPROPERTY(BlueprintReadOnly)
 	float Stamina;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Stamina")
+	float RunSpeed = 1000.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Stamina")
+	float WalkSpeed = 500.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Stamina")
+	float TiredSpeed = 100.0f;
+
 	UPROPERTY(EditAnywhere)
-	float StaminaRegenRate = 10.f;
+	float StaminaRegenRate = 20.f;
 
 	UPROPERTY(EditAnywhere)
 	bool bIsSprinting = false;
+
+	UPROPERTY(EditAnywhere)
+	bool bIsTired = false;
+
+	//FLinearColor StaminaColor yellow
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Stamina")
+	FLinearColor StaminaColor = FLinearColor(1.0f, 0.8f, 0.0f, 1.0f);
 
 public:
 
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	
+	void SetIsSprinting(bool tempbIsSprinting);
+	bool GetIsTired();
+
 		
 };

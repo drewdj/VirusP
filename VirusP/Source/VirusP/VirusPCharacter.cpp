@@ -66,7 +66,7 @@ void AVirusPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AVirusPCharacter::StaminaJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// if Run is pressed, activate takeDamage inside HealthComponent
@@ -93,7 +93,11 @@ void AVirusPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 
 void AVirusPCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
-	Jump();
+	if (!StaminaComponent->GetIsTired())
+	{
+		Jump();
+	}
+
 }
 
 void AVirusPCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
@@ -144,10 +148,20 @@ void AVirusPCharacter::MoveRight(float Value)
 
 void AVirusPCharacter::Run()
 {
-	GetCharacterMovement()->MaxWalkSpeed = 1000.f;
+	StaminaComponent->SetIsSprinting(true);
 }
 
 void AVirusPCharacter::StopRunning()
 {
-	GetCharacterMovement()->MaxWalkSpeed = 500.f;
+	StaminaComponent->SetIsSprinting(false);
+}
+
+
+void AVirusPCharacter::StaminaJump()
+{
+	if (!StaminaComponent->GetIsTired())
+	{
+		ACharacter::Jump();
+	}
+
 }

@@ -39,6 +39,9 @@ protected:
 	void Run();
 	void StopRunning();
 
+	void StaminaJump();
+	void StaminaStopJump();
+
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);
 

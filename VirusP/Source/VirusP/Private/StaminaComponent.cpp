@@ -3,6 +3,9 @@
 
 #include "StaminaComponent.h"
 
+#include "GameFramework/CharacterMovementComponent.h"
+#include "VirusP/VirusPCharacter.h"
+
 // Sets default values for this component's properties
 UStaminaComponent::UStaminaComponent()
 {
@@ -20,10 +23,69 @@ void UStaminaComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
+	Owner = Cast<AVirusPCharacter>(GetOwner());
+
 }
 
 void UStaminaComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	if (Stamina == 0)
+	{
+		bIsTired = true;
+
+		StaminaColor = FLinearColor(1.0f, 0.0f, 0.0f, 1.0f);
+	}
+
+	if (Stamina == DefaultStamina)
+	{
+		bIsTired = false;
+
+		StaminaColor = FLinearColor(1.0f, 0.8f, 0.0f, 1.0f);		
+	}
+
+	if (bIsSprinting)
+	{
+		if (bIsTired)
+		{
+			Stamina = FMath::Clamp(Stamina + StaminaRegenRate/2 * DeltaTime, 0.f, DefaultStamina);
+
+			Owner->GetCharacterMovement()->MaxWalkSpeed = TiredSpeed;			
+		}
+		else
+		{
+			Stamina = FMath::Clamp(Stamina - StaminaRegenRate * DeltaTime, 0.f, DefaultStamina);
+			Owner->GetCharacterMovement()->MaxWalkSpeed = RunSpeed;	
+		}
+		
+	}
+	else
+	{
+		if (bIsTired)
+		{
+			Stamina = FMath::Clamp(Stamina + StaminaRegenRate/2 * DeltaTime, 0.f, DefaultStamina);
+
+			Owner->GetCharacterMovement()->MaxWalkSpeed = TiredSpeed;
+		}
+		else
+		{
+			Stamina = FMath::Clamp(Stamina + StaminaRegenRate * DeltaTime, 0.f, DefaultStamina);
+
+			Owner->GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
+		}		
+	}
+
 	
+}
+
+
+void UStaminaComponent::SetIsSprinting(bool tempbIsSprinting)
+{
+	bIsSprinting = tempbIsSprinting;
+}
+
+bool UStaminaComponent::GetIsTired()
+{
+	return bIsTired;
 }
