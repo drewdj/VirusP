@@ -62,6 +62,9 @@
     <Filter Include="Source\VirusP\Private">
       <UniqueIdentifier>{2F5F34A1-939F-3D58-A8A8-91D0CE03EF25}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\VirusP\Private\Door.cpp">
+      <Filter>Source\VirusP\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\VirusP\Private\HealthComponent.cpp">
       <Filter>Source\VirusP\Private</Filter>
     </ClCompile>
@@ -71,6 +74,9 @@
     <Filter Include="Source\VirusP\Public">
       <UniqueIdentifier>{E16F6236-08BB-3D6C-8E72-E39EB60F3687}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\VirusP\Public\Door.h">
+      <Filter>Source\VirusP\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\VirusP\Public\HealthComponent.h">
       <Filter>Source\VirusP\Public</Filter>
     </ClInclude>
