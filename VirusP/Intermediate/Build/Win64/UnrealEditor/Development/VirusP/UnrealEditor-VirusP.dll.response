@@ -52,6 +52,7 @@
 "..\Intermediate\Build\Win64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\HeadMountedDisplay\UnrealEditor-HeadMountedDisplay.lib"
+"..\Plugins\Experimental\Animation\MotionWarping\Intermediate\Build\Win64\UnrealEditor\Development\MotionWarping\UnrealEditor-MotionWarping.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"

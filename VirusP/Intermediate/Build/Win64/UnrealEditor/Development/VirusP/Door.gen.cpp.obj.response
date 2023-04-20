@@ -259,6 +259,9 @@
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
 /I Runtime\MRMesh\Public
+/I ..\Plugins\Experimental\Animation\MotionWarping\Intermediate\Build\Win64\UnrealEditor\Inc\MotionWarping
+/I ..\Plugins\Experimental\Animation\MotionWarping\Source
+/I ..\Plugins\Experimental\Animation\MotionWarping\Source\MotionWarping\Public
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
