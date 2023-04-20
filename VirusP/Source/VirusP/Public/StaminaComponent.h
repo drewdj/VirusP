@@ -58,6 +58,7 @@ public:
 
 	void SetIsSprinting(bool tempbIsSprinting);
 	bool GetIsTired();
+	void SetSpeeds(float newRunSpeed, float newWalkSpeed);
 
 		
 };

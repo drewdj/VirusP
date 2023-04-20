@@ -22,6 +22,8 @@ class AVirusPCharacter : public ACharacter
 	
 public:
 	AVirusPCharacter();
+	
+	virtual void Tick(float DeltaTime) override;
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Input)
@@ -33,15 +35,29 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stamina")
 	class UStaminaComponent* StaminaComponent;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite);
+	bool bCrouched = false;
+
 protected:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
+	float TargetCameraDistance;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
+	float CameraInterpSpeed;
+
 
 	bool bIsRunning;
 
 	void Run();
 	void StopRunning();
 
+	void Crouch();
+
 	void StaminaJump();
 	void StaminaStopJump();
+
+	void SetTargetCameraDistance(float NewDistance);
 
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);

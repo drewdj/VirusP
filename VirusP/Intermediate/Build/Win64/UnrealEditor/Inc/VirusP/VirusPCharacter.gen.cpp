@@ -52,6 +52,19 @@ void EmptyLinkFunctionForGeneratedCodeVirusPCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_StaminaComponent_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_StaminaComponent;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bCrouched_MetaData[];
+#endif
+		static void NewProp_bCrouched_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bCrouched;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_TargetCameraDistance_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_TargetCameraDistance;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_CameraInterpSpeed_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_CameraInterpSpeed;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -114,12 +127,40 @@ void EmptyLinkFunctionForGeneratedCodeVirusPCharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_StaminaComponent = { "StaminaComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVirusPCharacter, StaminaComponent), Z_Construct_UClass_UStaminaComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_StaminaComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_StaminaComponent_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched_MetaData[] = {
+		{ "Category", "VirusPCharacter" },
+		{ "ModuleRelativePath", "VirusPCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched_SetBit(void* Obj)
+	{
+		((AVirusPCharacter*)Obj)->bCrouched = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched = { "bCrouched", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AVirusPCharacter), &Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched_SetBit, METADATA_PARAMS(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_TargetCameraDistance_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "ModuleRelativePath", "VirusPCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_TargetCameraDistance = { "TargetCameraDistance", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVirusPCharacter, TargetCameraDistance), METADATA_PARAMS(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_TargetCameraDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_TargetCameraDistance_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_CameraInterpSpeed_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "ModuleRelativePath", "VirusPCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_CameraInterpSpeed = { "CameraInterpSpeed", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVirusPCharacter, CameraInterpSpeed), METADATA_PARAMS(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_CameraInterpSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_CameraInterpSpeed_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AVirusPCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_CameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_FollowCamera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_TurnRateGamepad,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_HealthComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_StaminaComponent,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_TargetCameraDistance,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_CameraInterpSpeed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AVirusPCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AVirusPCharacter>::IsAbstract,
@@ -157,9 +198,9 @@ void EmptyLinkFunctionForGeneratedCodeVirusPCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_VirusPCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AVirusPCharacter, AVirusPCharacter::StaticClass, TEXT("AVirusPCharacter"), &Z_Registration_Info_UClass_AVirusPCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AVirusPCharacter), 4148029399U) },
+		{ Z_Construct_UClass_AVirusPCharacter, AVirusPCharacter::StaticClass, TEXT("AVirusPCharacter"), &Z_Registration_Info_UClass_AVirusPCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AVirusPCharacter), 1710615267U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_VirusPCharacter_h_3361764788(TEXT("/Script/VirusP"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_VirusPCharacter_h_3391438548(TEXT("/Script/VirusP"),
 		Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_VirusPCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_VirusPCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
