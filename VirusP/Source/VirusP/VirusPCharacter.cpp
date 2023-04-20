@@ -16,6 +16,10 @@
 
 AVirusPCharacter::AVirusPCharacter()
 {
+	PrimaryActorTick.bCanEverTick = true;
+
+
+
 
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComponent"));
 	StaminaComponent = CreateDefaultSubobject<UStaminaComponent>(TEXT("StaminaComponent"));
@@ -49,6 +53,11 @@ AVirusPCharacter::AVirusPCharacter()
 	CameraBoom->TargetArmLength = 400.0f; // The camera follows at this distance behind the character	
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
+	// Establece la distancia objetivo de la cámara al valor inicial
+	TargetCameraDistance = CameraBoom->TargetArmLength;
+	// Establece la velocidad de interpolación (puedes ajustar este valor según lo desees)
+	CameraInterpSpeed = 1.0f;
+
 	// Create a follow camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
@@ -67,13 +76,12 @@ void AVirusPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AVirusPCharacter::StaminaJump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-
-	// if Run is pressed, activate takeDamage inside HealthComponent
-	
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);	
 
 	PlayerInputComponent->BindAction("Run", IE_Pressed, this, &AVirusPCharacter::Run);
 	PlayerInputComponent->BindAction("Run", IE_Released, this, &AVirusPCharacter::StopRunning);
+
+	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AVirusPCharacter::Crouch);
 
 	PlayerInputComponent->BindAxis("Move Forward / Backward", this, &AVirusPCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("Move Right / Left", this, &AVirusPCharacter::MoveRight);
@@ -156,6 +164,16 @@ void AVirusPCharacter::StopRunning()
 	StaminaComponent->SetIsSprinting(false);
 }
 
+void AVirusPCharacter::Crouch()
+{
+	bCrouched = !bCrouched;
+	StaminaComponent->SetSpeeds(bCrouched ? 500 : 1000, bCrouched ? 350 : 500);
+	SetTargetCameraDistance(bCrouched ? 550.0f : 400);
+
+	
+}
+
+
 
 void AVirusPCharacter::StaminaJump()
 {
@@ -165,3 +183,23 @@ void AVirusPCharacter::StaminaJump()
 	}
 
 }
+
+void AVirusPCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	// Interpola la distancia de la cámara hacia la distancia objetivo
+	CameraBoom->TargetArmLength = FMath::FInterpTo(
+		CameraBoom->TargetArmLength,
+		TargetCameraDistance,
+		DeltaTime,
+		CameraInterpSpeed
+	);
+}
+
+
+void AVirusPCharacter::SetTargetCameraDistance(float NewDistance)
+{
+	TargetCameraDistance = NewDistance;
+}
+

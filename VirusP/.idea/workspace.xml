@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a3944ca-4119-43f1-bfa1-abffd0b09bbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Maps/first_map.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Big_tube.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Corner_Large.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Corner_Medium.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Corner_Small.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Door.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Elevator1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Elevator_door.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Elevator_door2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Elevator_shaft.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Floor_1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Floor_2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Floor_3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Glass_door.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Keycard_door1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Keycard_door2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Keycard_door3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Keycard_door4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Medium_tube.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Small_tube.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Wall_Double_door.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Wall_door.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Wall_long.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Wall_medium.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Wall_small.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Wall_window.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/source/Assets_A_Wall_window1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Models/modular-office-building-assets-post-apoc/textures/Assets_A_tga.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-2A22C305464A83FBB264529F001003BE/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-4C1BEA4743777C719F2438BDE203EC62/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/WorldState/2564925082.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-4C1BEA4743777C719F2438BDE203EC62_0000/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-4C1BEA4743777C719F2438BDE203EC62_0000/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-4C1BEA4743777C719F2438BDE203EC62_0000/UEMinidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-4C1BEA4743777C719F2438BDE203EC62_0000/VirusP.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.04.19-09.27.36.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/VirusP_2-backup-2023.04.19-09.27.11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/VirusP.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/VirusP_2.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2OeOtYLvbrAdOrgU0xWK1GEyIii" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a3944ca-4119-43f1-bfa1-abffd0b09bbf" name="Changes" comment="" />
+      <created>1681917798174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681917798174</updated>
+      <workItem from="1681917799949" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

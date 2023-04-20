@@ -31,6 +31,8 @@ void UStaminaComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+
+	
 	if (Stamina == 0)
 	{
 		bIsTired = true;
@@ -88,4 +90,10 @@ void UStaminaComponent::SetIsSprinting(bool tempbIsSprinting)
 bool UStaminaComponent::GetIsTired()
 {
 	return bIsTired;
+}
+
+void UStaminaComponent::SetSpeeds(float newRunSpeed, float newWalkSpeed)
+{
+	RunSpeed = newRunSpeed;
+	WalkSpeed = newWalkSpeed;
 }
