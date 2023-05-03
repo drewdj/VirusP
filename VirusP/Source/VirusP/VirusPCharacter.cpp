@@ -2,6 +2,7 @@
 
 #include "VirusPCharacter.h"
 
+#include "AttackComponent.h"
 #include "HealthComponent.h"
 #include "StaminaComponent.h"
 #include "Camera/CameraComponent.h"
@@ -23,6 +24,7 @@ AVirusPCharacter::AVirusPCharacter()
 
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComponent"));
 	StaminaComponent = CreateDefaultSubobject<UStaminaComponent>(TEXT("StaminaComponent"));
+	AttackComponent = CreateDefaultSubobject<UAttackComponent>(TEXT("AttackComponent"));
 	
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -83,6 +85,8 @@ void AVirusPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AVirusPCharacter::Crouch);
 
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, AttackComponent, &UAttackComponent::Attack);
+
 	PlayerInputComponent->BindAxis("Move Forward / Backward", this, &AVirusPCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("Move Right / Left", this, &AVirusPCharacter::MoveRight);
 
@@ -97,6 +101,8 @@ void AVirusPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	// handle touch devices
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AVirusPCharacter::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &AVirusPCharacter::TouchStopped);
+
+
 }
 
 void AVirusPCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
@@ -169,16 +175,16 @@ void AVirusPCharacter::Crouch()
 	bCrouched = !bCrouched;
 	StaminaComponent->SetSpeeds(bCrouched ? 500 : 1000, bCrouched ? 350 : 500);
 	SetTargetCameraDistance(bCrouched ? 550.0f : 400);
-
 	
 }
 
 
 
 void AVirusPCharacter::StaminaJump()
-{
-	if (!StaminaComponent->GetIsTired())
+{	
+	if (!StaminaComponent->GetIsTired()&&!GetCharacterMovement()->IsFalling())
 	{
+		StaminaComponent->ModifyStamina(-20);
 		ACharacter::Jump();
 	}
 

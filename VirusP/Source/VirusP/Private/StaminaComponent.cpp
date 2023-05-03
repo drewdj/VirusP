@@ -47,7 +47,7 @@ void UStaminaComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 		StaminaColor = FLinearColor(1.0f, 0.8f, 0.0f, 1.0f);		
 	}
 
-	if (bIsSprinting)
+	if (bIsSprinting && !Owner->GetCharacterMovement()->IsFalling())
 	{
 		if (bIsTired)
 		{
@@ -59,10 +59,9 @@ void UStaminaComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 		{
 			Stamina = FMath::Clamp(Stamina - StaminaRegenRate * DeltaTime, 0.f, DefaultStamina);
 			Owner->GetCharacterMovement()->MaxWalkSpeed = RunSpeed;	
-		}
-		
+		}		
 	}
-	else
+	else if (!Owner->GetCharacterMovement()->IsFalling())
 	{
 		if (bIsTired)
 		{
@@ -96,4 +95,14 @@ void UStaminaComponent::SetSpeeds(float newRunSpeed, float newWalkSpeed)
 {
 	RunSpeed = newRunSpeed;
 	WalkSpeed = newWalkSpeed;
+}
+
+void UStaminaComponent::ModifyStamina(float amount)
+{
+	Stamina = FMath::Clamp(Stamina + amount, 0.f, DefaultStamina);
+}
+
+float UStaminaComponent::GetStamina()
+{
+	return Stamina;
 }

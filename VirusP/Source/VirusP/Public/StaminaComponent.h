@@ -16,6 +16,14 @@ class VIRUSP_API UStaminaComponent : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UStaminaComponent();
+	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+	void SetIsSprinting(bool tempbIsSprinting);
+	bool GetIsTired();
+	void SetSpeeds(float newRunSpeed, float newWalkSpeed);
+	void ModifyStamina(float amount);
+	float GetStamina();
+	void Test();
 
 
 protected:
@@ -51,14 +59,7 @@ protected:
 	//FLinearColor StaminaColor yellow
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Stamina")
 	FLinearColor StaminaColor = FLinearColor(1.0f, 0.8f, 0.0f, 1.0f);
-
-public:
-
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-	void SetIsSprinting(bool tempbIsSprinting);
-	bool GetIsTired();
-	void SetSpeeds(float newRunSpeed, float newWalkSpeed);
-
+	
+	
 		
 };
