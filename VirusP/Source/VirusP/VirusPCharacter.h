@@ -35,9 +35,6 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stamina")
 	class UStaminaComponent* StaminaComponent;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attack")
-	class UAttackComponent* AttackComponent;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite);
 	bool bCrouched = false;
 

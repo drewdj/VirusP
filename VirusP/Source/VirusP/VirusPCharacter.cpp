@@ -2,7 +2,6 @@
 
 #include "VirusPCharacter.h"
 
-#include "AttackComponent.h"
 #include "HealthComponent.h"
 #include "StaminaComponent.h"
 #include "Camera/CameraComponent.h"
@@ -24,7 +23,6 @@ AVirusPCharacter::AVirusPCharacter()
 
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComponent"));
 	StaminaComponent = CreateDefaultSubobject<UStaminaComponent>(TEXT("StaminaComponent"));
-	AttackComponent = CreateDefaultSubobject<UAttackComponent>(TEXT("AttackComponent"));
 	
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -84,8 +82,6 @@ void AVirusPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAction("Run", IE_Released, this, &AVirusPCharacter::StopRunning);
 
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AVirusPCharacter::Crouch);
-
-	PlayerInputComponent->BindAction("Attack", IE_Pressed, AttackComponent, &UAttackComponent::Attack);
 
 	PlayerInputComponent->BindAxis("Move Forward / Backward", this, &AVirusPCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("Move Right / Left", this, &AVirusPCharacter::MoveRight);
