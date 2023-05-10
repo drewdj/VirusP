@@ -1,6 +1,6 @@
-C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Inc\VirusP\StaminaComponent.gen.cpp
+"C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Inc\VirusP\StaminaComponent.gen.cpp"
 /I .
-/I C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Source\VirusP\Private
+/I "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Source\VirusP\Private"
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
 /I ..\Shaders\Shared
@@ -252,9 +252,9 @@ C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Intermediate\Build\Win64\UnrealEdi
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Inc\VirusP
-/I C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Source
-/I C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Source\VirusP\Public
+/I "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Inc\VirusP"
+/I "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Source"
+/I "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Source\VirusP\Public"
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
@@ -276,18 +276,18 @@ C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Intermediate\Build\Win64\UnrealEdi
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Intermediate\Build\Win64\VirusPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Development\VirusP\Definitions.VirusP.h"
-/Yu"C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Intermediate\Build\Win64\VirusPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Intermediate\Build\Win64\VirusPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Development\VirusP\StaminaComponent.gen.cpp.obj"
-/sourceDependencies C:\Users\28dav\Documents\GitHub\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Development\VirusP\StaminaComponent.gen.cpp.json
+/FI"C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Intermediate\Build\Win64\VirusPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Development\VirusP\Definitions.VirusP.h"
+/Yu"C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Intermediate\Build\Win64\VirusPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Intermediate\Build\Win64\VirusPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Development\VirusP\StaminaComponent.gen.cpp.obj"
+/sourceDependencies "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Intermediate\Build\Win64\UnrealEditor\Development\VirusP\StaminaComponent.gen.cpp.json"
 /Zc:inline
 /nologo
 /Oi

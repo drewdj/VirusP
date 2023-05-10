@@ -1,12 +1,12 @@
 {
-    "Version": "1.2",
+    "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\28dav\\documents\\github\\virusp\\virusp\\source\\virusp\\virusp.cpp",
+        "Source": "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\source\\virusp\\virusp.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\28dav\\documents\\github\\virusp\\virusp\\intermediate\\build\\win64\\viruspeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\viruspeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\28dav\\documents\\github\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\development\\virusp\\definitions.virusp.h",
-            "c:\\users\\28dav\\documents\\github\\virusp\\virusp\\source\\virusp\\virusp.h"
+            "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\development\\virusp\\definitions.virusp.h",
+            "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\source\\virusp\\virusp.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
