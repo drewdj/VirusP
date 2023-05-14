@@ -171,6 +171,7 @@ void AVirusPCharacter::Crouch()
 	bCrouched = !bCrouched;
 	StaminaComponent->SetSpeeds(bCrouched ? 500 : 1000, bCrouched ? 350 : 500);
 	SetTargetCameraDistance(bCrouched ? 550.0f : 400);
+	ACharacter::Crouch();
 	
 }
 
