@@ -34,6 +34,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderBlueprint\Module.RiderBlueprint.cpp.obj"
+"C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderBlueprint\BlueprintProvider.cpp.obj"
 "C:\Users\28dav\Documents\Unreal Projects\VirusP\VirusP\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderBlueprint\Default.rc2.res"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\SlateCore\UnrealEditor-SlateCore.lib"

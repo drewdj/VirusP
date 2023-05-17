@@ -42,7 +42,7 @@ protected:
 	float RunSpeed = 1000.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Stamina")
-	float WalkSpeed = 250.0f;
+	float WalkSpeed = 500.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Stamina")
 	float TiredSpeed = 100.0f;

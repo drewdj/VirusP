@@ -7,23 +7,27 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeVirusP_init() {}
+	VIRUSP_API UFunction* Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_VirusP;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_VirusP()
 	{
 		if (!Z_Registration_Info_UPackage__Script_VirusP.OuterSingleton)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature,
+			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
 				"/Script/VirusP",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x3AA1FC77,
-				0xC5B495FE,
+				0x56252FF7,
+				0x14240C9E,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_VirusP.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_VirusP.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_VirusP(Z_Construct_UPackage__Script_VirusP, TEXT("/Script/VirusP"), Z_Registration_Info_UPackage__Script_VirusP, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x3AA1FC77, 0xC5B495FE));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_VirusP(Z_Construct_UPackage__Script_VirusP, TEXT("/Script/VirusP"), Z_Registration_Info_UPackage__Script_VirusP, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x56252FF7, 0x14240C9E));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

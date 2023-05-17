@@ -1,4 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
+#include "GameFramework/Character.h"
 
 #pragma once
 
@@ -6,6 +7,7 @@
 #include "Components/ActorComponent.h"
 #include "HealthComponent.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FMyEventSignature);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class VIRUSP_API UHealthComponent : public UActorComponent
@@ -15,6 +17,12 @@ class VIRUSP_API UHealthComponent : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UHealthComponent();
+	
+	UPROPERTY(BlueprintAssignable)
+	FMyEventSignature OnDeath;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	bool bIsDead = false;
 
 protected:
 	// Called when the game starts
@@ -25,6 +33,8 @@ protected:
 
 	UPROPERTY(BlueprintReadOnly)
 	float Health;
+
+
 
 	UFUNCTION()
 	void TakeDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser);

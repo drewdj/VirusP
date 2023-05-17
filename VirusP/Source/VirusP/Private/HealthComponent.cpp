@@ -27,16 +27,40 @@ void UHealthComponent::BeginPlay()
 	}
 }
 
-void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType,
-	AController* InstigatedBy, AActor* DamageCauser)
+void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser)
 {
-	if (Damage <= 0.f)
+
+	if(Health <= 0 || Damage <= 0)
 	{
 		return;
 	}
 	
 	Health = FMath::Clamp(Health - Damage, 0.f, DefaultHealth);
+
+	if (Health <= 0)
+	{
+
+		// Haz un cast a ACharacter
+		ACharacter* Character = Cast<ACharacter>(DamagedActor);
+		if (Character)
+		{
+			// Obten el componente de esqueleto del actor dañado
+			USkeletalMeshComponent* SkeletalComp = Character->GetMesh();
+			if (SkeletalComp)
+			{
+				OnDeath.Broadcast();
+				// Activa la simulación de física para todos los huesos, activando el ragdoll
+				SkeletalComp->SetSimulatePhysics(true);
+				bIsDead = true;
+				
+			}
+
+		}
+		return;
+	}
 }
+
+
 
 
 
