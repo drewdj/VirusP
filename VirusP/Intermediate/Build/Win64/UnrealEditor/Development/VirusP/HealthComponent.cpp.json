@@ -1,19 +1,19 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\source\\virusp\\private\\healthcomponent.cpp",
+        "Source": "c:\\users\\28dav\\documents\\github\\virusp\\virusp\\source\\virusp\\private\\healthcomponent.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\viruspeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\28dav\\documents\\github\\virusp\\virusp\\intermediate\\build\\win64\\viruspeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\development\\virusp\\definitions.virusp.h",
-            "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\source\\virusp\\public\\healthcomponent.h",
+            "c:\\users\\28dav\\documents\\github\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\development\\virusp\\definitions.virusp.h",
+            "c:\\users\\28dav\\documents\\github\\virusp\\virusp\\source\\virusp\\public\\healthcomponent.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
-            "c:\\users\\28dav\\documents\\unreal projects\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\inc\\virusp\\healthcomponent.generated.h"
+            "c:\\users\\28dav\\documents\\github\\virusp\\virusp\\intermediate\\build\\win64\\unrealeditor\\inc\\virusp\\healthcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

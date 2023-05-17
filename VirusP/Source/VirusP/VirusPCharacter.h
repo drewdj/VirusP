@@ -35,6 +35,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stamina")
 	class UStaminaComponent* StaminaComponent;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Level")
+	class ULevelComponent* LevelComponent;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite);
 	bool bCrouched = false;
 

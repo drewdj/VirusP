@@ -4,6 +4,7 @@
 
 #include "HealthComponent.h"
 #include "StaminaComponent.h"
+#include "LevelComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
@@ -23,6 +24,7 @@ AVirusPCharacter::AVirusPCharacter()
 
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComponent"));
 	StaminaComponent = CreateDefaultSubobject<UStaminaComponent>(TEXT("StaminaComponent"));
+	LevelComponent = CreateDefaultSubobject<ULevelComponent>(TEXT("LevelComponent"));
 	
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
