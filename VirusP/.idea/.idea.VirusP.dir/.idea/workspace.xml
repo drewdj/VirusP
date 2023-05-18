@@ -7,7 +7,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d5b642b-0ce0-44f5-a200-069aa575b928" name="Changes" comment="" />
+    <list default="true" id="6d5b642b-0ce0-44f5-a200-069aa575b928" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirusP.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirusP.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/first_map.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/first_map.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/VirusPModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/VirusPModuleRules.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/VirusPModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/VirusPModuleRulesManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/VirusP/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/VirusP/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/Makefile.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderGameControl.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderGameControl.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLink.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLink.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RD/UnrealEditor-RD.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RD/UnrealEditor-RD.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RiderBlueprint/UnrealEditor-RiderBlueprint.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RiderBlueprint/UnrealEditor-RiderBlueprint.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RiderGameControl/UnrealEditor-RiderGameControl.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RiderGameControl/UnrealEditor-RiderGameControl.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RiderLC/UnrealEditor-RiderLC.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RiderLC/UnrealEditor-RiderLC.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RiderLink/UnrealEditor-RiderLink.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RiderLink/UnrealEditor-RiderLink.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RiderLogging/UnrealEditor-RiderLogging.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/Development/RiderLogging/UnrealEditor-RiderLogging.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.15-12.20.07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.16-18.53.12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.18-09.08.20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.18-10.25.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.18-10.40.34.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/VirusP.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
