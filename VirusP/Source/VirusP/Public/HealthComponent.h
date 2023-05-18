@@ -7,7 +7,7 @@
 #include "Components/ActorComponent.h"
 #include "HealthComponent.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FMyEventSignature);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnDeathEventSignature);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class VIRUSP_API UHealthComponent : public UActorComponent
@@ -19,7 +19,7 @@ public:
 	UHealthComponent();
 	
 	UPROPERTY(BlueprintAssignable)
-	FMyEventSignature OnDeath;
+	FOnDeathEventSignature OnDeath;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	bool bIsDead = false;

@@ -9,11 +9,34 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeLevelComponent() {}
 // Cross Module References
+	VIRUSP_API UFunction* Z_Construct_UDelegateFunction_VirusP_OnXPEventSignature__DelegateSignature();
+	UPackage* Z_Construct_UPackage__Script_VirusP();
 	VIRUSP_API UClass* Z_Construct_UClass_ULevelComponent_NoRegister();
 	VIRUSP_API UClass* Z_Construct_UClass_ULevelComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
-	UPackage* Z_Construct_UPackage__Script_VirusP();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_VirusP_OnXPEventSignature__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VirusP_OnXPEventSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/LevelComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VirusP_OnXPEventSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VirusP, nullptr, "OnXPEventSignature__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VirusP_OnXPEventSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VirusP_OnXPEventSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_VirusP_OnXPEventSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VirusP_OnXPEventSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	DEFINE_FUNCTION(ULevelComponent::execAddExperience)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param_Experience);
@@ -86,6 +109,10 @@ void EmptyLinkFunctionForGeneratedCodeLevelComponent() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_ExperienceToNextLevel_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_ExperienceToNextLevel;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OnXPEvent_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnXPEvent;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -126,10 +153,17 @@ void EmptyLinkFunctionForGeneratedCodeLevelComponent() {}
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ULevelComponent_Statics::NewProp_ExperienceToNextLevel = { "ExperienceToNextLevel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ULevelComponent, ExperienceToNextLevel), METADATA_PARAMS(Z_Construct_UClass_ULevelComponent_Statics::NewProp_ExperienceToNextLevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULevelComponent_Statics::NewProp_ExperienceToNextLevel_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULevelComponent_Statics::NewProp_OnXPEvent_MetaData[] = {
+		{ "ModuleRelativePath", "Public/LevelComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ULevelComponent_Statics::NewProp_OnXPEvent = { "OnXPEvent", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ULevelComponent, OnXPEvent), Z_Construct_UDelegateFunction_VirusP_OnXPEventSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ULevelComponent_Statics::NewProp_OnXPEvent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULevelComponent_Statics::NewProp_OnXPEvent_MetaData)) }; // 2956451977
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ULevelComponent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULevelComponent_Statics::NewProp_CurrentLevel,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULevelComponent_Statics::NewProp_CurrentExperience,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULevelComponent_Statics::NewProp_ExperienceToNextLevel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULevelComponent_Statics::NewProp_OnXPEvent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ULevelComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ULevelComponent>::IsAbstract,
@@ -167,9 +201,9 @@ void EmptyLinkFunctionForGeneratedCodeLevelComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_Public_LevelComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ULevelComponent, ULevelComponent::StaticClass, TEXT("ULevelComponent"), &Z_Registration_Info_UClass_ULevelComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULevelComponent), 1728701224U) },
+		{ Z_Construct_UClass_ULevelComponent, ULevelComponent::StaticClass, TEXT("ULevelComponent"), &Z_Registration_Info_UClass_ULevelComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULevelComponent), 116800428U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_Public_LevelComponent_h_1247633293(TEXT("/Script/VirusP"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_Public_LevelComponent_h_1060057656(TEXT("/Script/VirusP"),
 		Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_Public_LevelComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_Public_LevelComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

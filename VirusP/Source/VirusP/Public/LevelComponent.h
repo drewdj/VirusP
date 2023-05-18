@@ -6,6 +6,7 @@
 #include "Components/ActorComponent.h"
 #include "LevelComponent.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnXPEventSignature);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class VIRUSP_API ULevelComponent : public UActorComponent
@@ -21,6 +22,9 @@ public:
 	float CurrentExperience = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Level")
 	float ExperienceToNextLevel = 100;
+
+	UPROPERTY(BlueprintAssignable)
+	FOnXPEventSignature OnXPEvent;
 
 protected:
 	// Called when the game starts

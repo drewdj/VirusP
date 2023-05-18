@@ -42,6 +42,7 @@ void ULevelComponent::AddExperience(float Experience)
 	{
 		LevelUp();
 	}
+	OnXPEvent.Broadcast();
 }
 
 

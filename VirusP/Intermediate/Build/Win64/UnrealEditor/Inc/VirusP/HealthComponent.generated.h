@@ -17,9 +17,9 @@ class AController;
 #define VIRUSP_HealthComponent_generated_h
 
 #define FID_VirusP_Source_VirusP_Public_HealthComponent_h_10_DELEGATE \
-static inline void FMyEventSignature_DelegateWrapper(const FMulticastScriptDelegate& MyEventSignature) \
+static inline void FOnDeathEventSignature_DelegateWrapper(const FMulticastScriptDelegate& OnDeathEventSignature) \
 { \
-	MyEventSignature.ProcessMulticastDelegate<UObject>(NULL); \
+	OnDeathEventSignature.ProcessMulticastDelegate<UObject>(NULL); \
 }
 
 

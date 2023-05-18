@@ -1,8 +1,15 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\28dav\\Documents\\GitHub\\VirusP\\VirusP\\Source\\VirusP\\VirusP.Build.cs",
-		"C:\\Users\\28dav\\Documents\\GitHub\\VirusP\\VirusP\\Source\\VirusP.Target.cs",
-		"C:\\Users\\28dav\\Documents\\GitHub\\VirusP\\VirusP\\Source\\VirusPEditor.Target.cs"
+		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Source\\VirusP\\VirusP.Build.cs",
+		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Plugins\\Developer\\RiderLink\\Source\\RiderLC\\RiderLC.Build.cs",
+		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
+		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Source\\VirusP.Target.cs",
+		"C:\\Users\\28dav\\Documents\\Unreal Projects\\VirusP\\VirusP\\Source\\VirusPEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }

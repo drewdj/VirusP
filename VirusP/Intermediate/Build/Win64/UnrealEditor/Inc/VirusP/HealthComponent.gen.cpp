@@ -9,7 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 // Cross Module References
-	VIRUSP_API UFunction* Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature();
+	VIRUSP_API UFunction* Z_Construct_UDelegateFunction_VirusP_OnDeathEventSignature__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_VirusP();
 	VIRUSP_API UClass* Z_Construct_UClass_UHealthComponent_NoRegister();
 	VIRUSP_API UClass* Z_Construct_UClass_UHealthComponent();
@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
 // End Cross Module References
-	struct Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature_Statics
+	struct Z_Construct_UDelegateFunction_VirusP_OnDeathEventSignature__DelegateSignature_Statics
 	{
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -26,17 +26,17 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VirusP_OnDeathEventSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/HealthComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VirusP, nullptr, "MyEventSignature__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature()
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VirusP_OnDeathEventSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VirusP, nullptr, "OnDeathEventSignature__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VirusP_OnDeathEventSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VirusP_OnDeathEventSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_VirusP_OnDeathEventSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature_Statics::FuncParams);
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VirusP_OnDeathEventSignature__DelegateSignature_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -169,7 +169,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		{ "ModuleRelativePath", "Public/HealthComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UHealthComponent_Statics::NewProp_OnDeath = { "OnDeath", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHealthComponent, OnDeath), Z_Construct_UDelegateFunction_VirusP_MyEventSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UHealthComponent_Statics::NewProp_OnDeath_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHealthComponent_Statics::NewProp_OnDeath_MetaData)) }; // 3916259288
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UHealthComponent_Statics::NewProp_OnDeath = { "OnDeath", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHealthComponent, OnDeath), Z_Construct_UDelegateFunction_VirusP_OnDeathEventSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UHealthComponent_Statics::NewProp_OnDeath_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHealthComponent_Statics::NewProp_OnDeath_MetaData)) }; // 2804826314
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHealthComponent_Statics::NewProp_bIsDead_MetaData[] = {
 		{ "Category", "Health" },
@@ -237,9 +237,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_Public_HealthComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UHealthComponent, UHealthComponent::StaticClass, TEXT("UHealthComponent"), &Z_Registration_Info_UClass_UHealthComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHealthComponent), 794668191U) },
+		{ Z_Construct_UClass_UHealthComponent, UHealthComponent::StaticClass, TEXT("UHealthComponent"), &Z_Registration_Info_UClass_UHealthComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHealthComponent), 865077983U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_Public_HealthComponent_h_4097245611(TEXT("/Script/VirusP"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_Public_HealthComponent_h_3882108584(TEXT("/Script/VirusP"),
 		Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_Public_HealthComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_Public_HealthComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
