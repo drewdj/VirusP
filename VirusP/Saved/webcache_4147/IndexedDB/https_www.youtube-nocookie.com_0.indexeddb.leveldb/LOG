@@ -1,1 +1,5 @@
 2023/05/18-10:31:01.412 606c Reusing MANIFEST C:/Users/34672/Documents/GitHub/VirusP/VirusP/Saved/webcache_4147\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/18-12:58:59.368 59c0 Level-0 table #5: started
+2023/05/18-12:58:59.370 59c0 Level-0 table #5: 1212 bytes OK
+2023/05/18-12:58:59.371 59c0 Delete type=0 #3
+2023/05/18-12:58:59.372 59c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
