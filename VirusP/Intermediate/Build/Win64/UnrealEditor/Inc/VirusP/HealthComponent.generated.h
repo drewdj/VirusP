@@ -26,12 +26,14 @@ static inline void FOnDeathEventSignature_DelegateWrapper(const FMulticastScript
 #define FID_VirusP_Source_VirusP_Public_HealthComponent_h_15_SPARSE_DATA
 #define FID_VirusP_Source_VirusP_Public_HealthComponent_h_15_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execTakeDamage);
+	DECLARE_FUNCTION(execTakeDamage); \
+	DECLARE_FUNCTION(execHeal);
 
 
 #define FID_VirusP_Source_VirusP_Public_HealthComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execTakeDamage);
+	DECLARE_FUNCTION(execTakeDamage); \
+	DECLARE_FUNCTION(execHeal);
 
 
 #define FID_VirusP_Source_VirusP_Public_HealthComponent_h_15_INCLASS_NO_PURE_DECLS \

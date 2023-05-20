@@ -21,6 +21,9 @@ public:
 	UPROPERTY(BlueprintAssignable)
 	FOnDeathEventSignature OnDeath;
 
+	UPROPERTY(BlueprintAssignable)
+	FOnDeathEventSignature OnHealthChanged;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	bool bIsDead = false;
 
@@ -34,7 +37,8 @@ protected:
 	UPROPERTY(BlueprintReadOnly)
 	float Health;
 
-
+	UFUNCTION(BlueprintCallable)
+	void Heal(float HealAmount);
 
 	UFUNCTION()
 	void TakeDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser);

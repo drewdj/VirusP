@@ -27,6 +27,11 @@ void UHealthComponent::BeginPlay()
 	}
 }
 
+void UHealthComponent::Heal(float HealAmount)
+{
+	Health = FMath::Clamp(Health + HealAmount, 0.f, DefaultHealth);
+}
+
 void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser)
 {
 
@@ -36,6 +41,8 @@ void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const UDam
 	}
 	
 	Health = FMath::Clamp(Health - Damage, 0.f, DefaultHealth);
+
+	OnHealthChanged.Broadcast();
 
 	if (Health <= 0)
 	{
