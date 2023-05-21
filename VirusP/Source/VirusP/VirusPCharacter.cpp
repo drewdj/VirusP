@@ -103,14 +103,6 @@ void AVirusPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 
 }
 
-void AVirusPCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
-{
-	if (!StaminaComponent->GetIsTired())
-	{
-		Jump();
-	}
-
-}
 
 void AVirusPCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
 {
@@ -158,6 +150,15 @@ void AVirusPCharacter::MoveRight(float Value)
 	}
 }
 
+void AVirusPCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
+{
+	if (!StaminaComponent->GetIsTired())
+	{
+		Jump();
+	}
+
+}
+
 void AVirusPCharacter::Run()
 {
 	StaminaComponent->SetIsSprinting(true);
@@ -181,7 +182,7 @@ void AVirusPCharacter::Crouch()
 
 void AVirusPCharacter::StaminaJump()
 {	
-	if (!StaminaComponent->GetIsTired()&&!GetCharacterMovement()->IsFalling())
+	if (!StaminaComponent->GetIsTired()&&!GetCharacterMovement()->IsFalling()&&!bCombat)
 	{
 		StaminaComponent->ModifyStamina(-20);
 		ACharacter::Jump();

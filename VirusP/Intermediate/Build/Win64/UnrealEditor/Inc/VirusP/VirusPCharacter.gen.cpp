@@ -63,6 +63,11 @@ void EmptyLinkFunctionForGeneratedCodeVirusPCharacter() {}
 		static void NewProp_bCrouched_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_bCrouched;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bCombat_MetaData[];
+#endif
+		static void NewProp_bCombat_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bCombat;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_TargetCameraDistance_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_TargetCameraDistance;
@@ -152,6 +157,17 @@ void EmptyLinkFunctionForGeneratedCodeVirusPCharacter() {}
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched = { "bCrouched", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AVirusPCharacter), &Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched_SetBit, METADATA_PARAMS(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCombat_MetaData[] = {
+		{ "Category", "VirusPCharacter" },
+		{ "ModuleRelativePath", "VirusPCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCombat_SetBit(void* Obj)
+	{
+		((AVirusPCharacter*)Obj)->bCombat = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCombat = { "bCombat", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AVirusPCharacter), &Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCombat_SetBit, METADATA_PARAMS(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCombat_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCombat_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_TargetCameraDistance_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "ModuleRelativePath", "VirusPCharacter.h" },
@@ -173,6 +189,7 @@ void EmptyLinkFunctionForGeneratedCodeVirusPCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_StaminaComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_LevelComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCrouched,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_bCombat,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_TargetCameraDistance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVirusPCharacter_Statics::NewProp_CameraInterpSpeed,
 	};
@@ -212,9 +229,9 @@ void EmptyLinkFunctionForGeneratedCodeVirusPCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_VirusPCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AVirusPCharacter, AVirusPCharacter::StaticClass, TEXT("AVirusPCharacter"), &Z_Registration_Info_UClass_AVirusPCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AVirusPCharacter), 855392007U) },
+		{ Z_Construct_UClass_AVirusPCharacter, AVirusPCharacter::StaticClass, TEXT("AVirusPCharacter"), &Z_Registration_Info_UClass_AVirusPCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AVirusPCharacter), 842772358U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_VirusPCharacter_h_2362318406(TEXT("/Script/VirusP"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_VirusPCharacter_h_1440414524(TEXT("/Script/VirusP"),
 		Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_VirusPCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_VirusP_Source_VirusP_VirusPCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

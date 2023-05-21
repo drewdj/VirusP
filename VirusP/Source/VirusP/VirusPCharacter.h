@@ -41,6 +41,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite);
 	bool bCrouched = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite);
+	bool bCombat = false;
+
 protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
