@@ -9,78 +9,37 @@
   <component name="ChangeListManager">
     <list default="true" id="6d5b642b-0ce0-44f5-a200-069aa575b928" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirusP.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirusP.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.patch_0.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.patch_0.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.patch_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.patch_1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.patch_2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.patch_2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/BP_AI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BP_AI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/BP_AI_Controller_Generic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BP_AI_Controller_Generic.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Boss.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Boss.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Controller_Generic_Boss.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Controller_Generic_Boss.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/VirusP_Character/Animations/ABP_VirusPCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/VirusP_Character/Animations/ABP_VirusPCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EquipmentSystem/DB_Weapons.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EquipmentSystem/DB_Weapons.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/9L/LAZZENKL20XXW7BVX57QVZ.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.cpp.lc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.cpp.lc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.cpp.obj.response.lc" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.cpp.obj.response.lc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.cpp.obj.response.lc.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.cpp.obj.response.lc.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.gen.cpp.lc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.gen.cpp.lc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.gen.cpp.obj.response.lc" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.gen.cpp.obj.response.lc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.gen.cpp.obj.response.lc.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/StaminaComponent.gen.cpp.obj.response.lc.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.dll.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.dll.response.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPCharacter.gen.cpp.lc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPCharacter.gen.cpp.lc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPCharacter.gen.cpp.obj.response.lc" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPCharacter.gen.cpp.obj.response.lc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPCharacter.gen.cpp.obj.response.lc.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPCharacter.gen.cpp.obj.response.lc.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPGameMode.cpp.lc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPGameMode.cpp.lc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPGameMode.cpp.obj.response.lc" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPGameMode.cpp.obj.response.lc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPGameMode.cpp.obj.response.lc.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/VirusPGameMode.cpp.obj.response.lc.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/VirusP/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/VirusP/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/VirusP/VirusP.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/VirusP/VirusP.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/VirusP/VirusPCharacter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/VirusP/VirusPCharacter.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/first_map.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/first_map.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Materials/Enemy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Materials/Enemy.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Materials/Sphere.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Materials/Sphere.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/2X/SQUKY177PUO7RYR2DSDSBD.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/KN/A896ZRFH1V1KYWB2S3D454.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/J5/NSZEYWMJTVH1Y4FCJXWJ85.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/DependencyCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/Makefile.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/VirusPEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/VirusPEditor.uhtmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE5.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.VirusP.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.VirusP.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/AI/BP_AI_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/AI/BP_AI_Auto1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto8.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto8.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/9L/LAZZENKL20XXW7BVX57QVZ_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/9L/LAZZENKL20XXW7BVX57QVZ_Auto1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-03A888724FD16068948D8A9ECF47D95A/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-3B87ECF640324B885CEA2EBC5A1C7479/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-4CC26B8942976A93E9A5B8BD557F0BD2/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-5E2E3DBF41663E922454128D98CD7E57/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-989A589E453B239D128AD0A3BB5CC537/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A43F000449A17FE0EAF3F493A82EC433/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-C99FAC3A46806DCFA8D6BF81CBC011CD/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-CCDC29274DCC97F014335FB6AAB8E92C/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-CDFE0B6B45969853B7758FB4D445A389/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-EC03167542F791E8061223A2650F85B2/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-000F71CF49B60397335F7A857A4D1BB4/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-084C7ABE410E420A9404759D92482619/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-14A3B18640E21ABABD0C20B66468F6A8/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-2C7496344C458CD3E2F83887F5E940FA/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-47F4856B4A24DCE297A0668F09DAD902/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-4FE6B722462AEBF8DBD71AA007592C3E/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-6332606F48BAE5BF6FB776A752C0058D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-79047C284137C37FF78A598B614A9836/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-815895FD426F98B494FE9CB9DDBD5D57/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A5553B1E4FE91A2112E97381F5385309/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A7A67E214B49721239187AA63576176A/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A8160FF14C645B02F656D28A40810533/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-C88D6F6C419FC2F0A63D1BA679C00A9D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-DD13A2194380FCCE2017DA830D9E0CD2/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-EA196EC446F02E73DC506B8D70182323/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-EE95D852425D3F4219BAA188C399BF82/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-FCB416724E9C748BEA5A15948EBE5803/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.19-08.29.03.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.19-10.49.38.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.19-11.07.12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.19-13.28.55.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.19-16.25.24.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.19-17.37.54.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.19-17.45.45.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.19-18.38.55.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.19-19.41.05.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.19-21.39.07.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.20-19.46.53.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.20-19.47.57.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.20-19.48.43.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/2564925082.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WorldState/2564925082.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.20-20.00.20.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/VirusP.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/VirusP/VirusPCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VirusP/VirusPCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/VirusP/VirusPCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VirusP/VirusPCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,6 +182,7 @@
       <workItem from="1684682423810" duration="1620000" />
       <workItem from="1684695808043" duration="35000" />
       <workItem from="1684697027713" duration="1331000" />
+      <workItem from="1684743866884" duration="1189000" />
     </task>
     <servers />
   </component>
