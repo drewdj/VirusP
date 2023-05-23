@@ -8,12 +8,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d5b642b-0ce0-44f5-a200-069aa575b928" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/HD/MW7ROIY3DQZY7O4EDURBIV.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/HD/MW7ROIY3DQZY7O4EDURBIV.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/TH/JNEJP8M4H6UKS0N82N07JI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/TH/JNEJP8M4H6UKS0N82N07JI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirusP.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirusP.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/BD_AI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BD_AI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/BP_AI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BP_AI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/BP_AI_Controller_Generic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BP_AI_Controller_Generic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/BT_AI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BT_AI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Boss.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Boss.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Controller_Generic_Boss.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Controller_Generic_Boss.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/Tasks/BT_Task_ChaseTarget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Tasks/BT_Task_ChaseTarget.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/6D/K7FRF1Y342Z3SDTYM01Z6F.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PY/APS6A4MHRCW7V2THPZ0SUV.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PY/APS6A4MHRCW7V2THPZ0SUV.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/0L/0WTRQPO2VQ5CKLL4F7MDVV.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/H3/0BHOC4C9L44O6PO2WUH0G9.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/AI/BP_AI_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/AI/BP_AI_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/AI/BP_AI_Controller_Generic_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/AI/BP_AI_Controller_Generic_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/AI/BP_AI_Controller_Generic_Auto3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/AI/BP_AI_Controller_Generic_Auto3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/AI/BP_AI_Controller_Generic_Auto4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/AI/BP_AI_Controller_Generic_Auto4.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-7EB6155842C492E5CDF33FB7AD69CCFF/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.20-19.46.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.20-20.31.06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.21-17.49.06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.21-19.04.21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.21-20.08.15.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/VirusP.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +182,7 @@
       <workItem from="1684695808043" duration="35000" />
       <workItem from="1684697027713" duration="1331000" />
       <workItem from="1684743866884" duration="1189000" />
-      <workItem from="1684828977958" duration="932000" />
+      <workItem from="1684828977958" duration="4074000" />
     </task>
     <servers />
   </component>
