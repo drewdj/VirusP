@@ -71,4 +71,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-VirusP/Saved/webcache_4147/*
+VirusP/Saved
+VirusP/Binaries

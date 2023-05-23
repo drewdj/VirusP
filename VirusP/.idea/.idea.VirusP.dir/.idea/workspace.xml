@@ -8,13 +8,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d5b642b-0ce0-44f5-a200-069aa575b928" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/Maps/map_1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/map_1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirusP.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirusP.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-VirusP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/BP_AI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BP_AI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/BP_AI_Controller_Generic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BP_AI_Controller_Generic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Boss.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Boss.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Controller_Generic_Boss.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Boss/BP_AI_Controller_Generic_Boss.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPC_AttackSystemComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPC_AttackSystemComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPC_TargetingSystemComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPC_TargetingSystemComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/WBP_TextTutorial.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/WBP_TextTutorial.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/first_map.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/first_map.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/map_1.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.dll.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/VirusP/UnrealEditor-VirusP.lib.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/VirusP/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/VirusP/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/Core/SharedPCH.Core.ShadowErrors.TypeCastWarnings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/Core/SharedPCH.Core.ShadowErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/CoreUObject/SharedPCH.CoreUObject.ShadowErrors.TypeCastErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/CoreUObject/SharedPCH.CoreUObject.ShadowErrors.TypeCastWarnings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/CoreUObject/SharedPCH.CoreUObject.ShadowErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/Engine/SharedPCH.Engine.Exceptions.ShadowErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/Engine/SharedPCH.Engine.NoShadow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/Engine/SharedPCH.Engine.NonOptimized.ShadowErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/Engine/SharedPCH.Engine.RTTI.Exceptions.ShadowErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/Engine/SharedPCH.Engine.ShadowErrors.NoUndef.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusP/Shipping/Slate/SharedPCH.Slate.ShadowErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VirusPEditor/Development/Makefile.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BPC_TargetingSystemComponent_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BPC_TargetingSystemComponent_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BPC_TargetingSystemComponent_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BPC_TargetingSystemComponent_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BPC_TargetingSystemComponent_Auto3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BPC_TargetingSystemComponent_Auto3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/QJ/Q3SMWYGV5KKN3S49DAFMUM_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/QJ/Q3SMWYGV5KKN3S49DAFMUM_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/QJ/Q3SMWYGV5KKN3S49DAFMUM_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/QJ/Q3SMWYGV5KKN3S49DAFMUM_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/QJ/Q3SMWYGV5KKN3S49DAFMUM_Auto3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/QJ/Q3SMWYGV5KKN3S49DAFMUM_Auto3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/WK/3JBLQWGXE1FTIKOBG687AN_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/WK/3JBLQWGXE1FTIKOBG687AN_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/WK/3JBLQWGXE1FTIKOBG687AN_Auto3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/WK/3JBLQWGXE1FTIKOBG687AN_Auto3.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-1B53AE0A402E7F74F4BADEA53E3EE67F/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-57E0FEF54E955D065B4A599B6CA0D691/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Game.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Game.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/2564925082.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WorldState/2564925082.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.23-08.07.59.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP-backup-2023.05.23-09.07.46.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/VirusP.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/VirusP.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirusP.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/VirusP.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +207,8 @@
       <workItem from="1684695808043" duration="35000" />
       <workItem from="1684697027713" duration="1331000" />
       <workItem from="1684743866884" duration="1189000" />
-      <workItem from="1684828977958" duration="4937000" />
+      <workItem from="1684828977958" duration="6121000" />
+      <workItem from="1684868626026" duration="840000" />
     </task>
     <servers />
   </component>
