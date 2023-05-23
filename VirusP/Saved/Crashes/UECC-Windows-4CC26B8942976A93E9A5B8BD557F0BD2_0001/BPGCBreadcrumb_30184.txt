@@ -1,3 +1,0 @@
-/Engine/Transient.World_11:WBP_Equipment_C_104
-/Game/Blueprints/Widgets/WBP_Equipment.WBP_Equipment_C
-/Game/Blueprints/Widgets/WBP_Equipment.WBP_Equipment_C:ExecuteUbergraph_WBP_Equipment:CallFunc_GetDataTableRowFromName_OutRow
