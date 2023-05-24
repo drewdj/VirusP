@@ -77,8 +77,8 @@ void AVirusPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AVirusPCharacter::StaminaJump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);	
+//	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AVirusPCharacter::StaminaJump);
+//	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);	
 
 	PlayerInputComponent->BindAction("Run", IE_Pressed, this, &AVirusPCharacter::Run);
 	PlayerInputComponent->BindAction("Run", IE_Released, this, &AVirusPCharacter::StopRunning);
