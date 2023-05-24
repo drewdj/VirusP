@@ -22,6 +22,8 @@ public:
 	float CurrentExperience = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Level")
 	float ExperienceToNextLevel = 100;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Level")
+	int CurrentLevelPoints = 0;
 
 	UPROPERTY(BlueprintAssignable)
 	FOnXPEventSignature OnXPEvent;
