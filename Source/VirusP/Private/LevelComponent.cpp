@@ -26,6 +26,7 @@ void ULevelComponent::BeginPlay()
 void ULevelComponent::LevelUp()
 {
 	CurrentLevel++;
+	CurrentLevelPoints++;
 	CurrentExperience = CurrentExperience - ExperienceToNextLevel;
 	ExperienceToNextLevel = ExperienceToNextLevel * 1.5;
 	if (CurrentExperience >= ExperienceToNextLevel)
